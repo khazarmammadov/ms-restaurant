@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_DB=ms-restaurant
+      - POSTGRES_USER=ms
+      - POSTGRES_PASSWORD=ms5
+    ports:
+      - 5432:5432

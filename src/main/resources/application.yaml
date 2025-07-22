@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ms-restaurant
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ms
+    password: ms5
+    url: jdbc:postgresql://localhost:5432/ms-restaurant
+  jpa:
+    hibernate:
+      ddl-auto: none
+  cassandra:
+    port: 8080
+
